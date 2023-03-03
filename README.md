@@ -3,7 +3,7 @@ simple Python script that sanitizes the names of library files extracted from an
 
 ## This Python script can only be executed on a Linux machine. Please use Linux or another Linux distribution in order to proceed with the removing/deleting method.
 
-## Prerequisition
+## Prerequisite
 - Linux distro
 - Basic knowledge of linux command
 
