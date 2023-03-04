@@ -16,7 +16,7 @@ Python script that sanitizes the names of library files extracted from an APK fi
 6.  Open the `remove.sh` shell script with a text editor.
 7.  Edit line number 6 and replace `*.apk` to your apk name.
 7.  Copy and paste this line below if you want to add multiple apps to delete.
-8.  Copy and paste all the content of the output file starting at line number 8.
+8.  Copy and paste all the content of the output file.
 9.  Save the file.
 10.  Copy the `b832bc61472727635baffcf25dd28e9f239273e2` folder and `remove.sh` to the root of the USB drive.
 11. Plug the USB drive into the IHU and wait until the IHU reboots.
