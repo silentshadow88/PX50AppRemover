@@ -1,4 +1,4 @@
-!/system/bin/sh
+#!/system/bin/sh
 mount -o remount,rw /system
 #create simple log output for the installed apps
 touch /mnt/media_rw/udisk1/log.txt
