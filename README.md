@@ -1,7 +1,7 @@
 # PX50AppRemover
 Python script that sanitizes the names of library files extracted from an APK file and add the rm shell command to it
 
-## This Python script can only be executed on a Linux machine. Please use Linux or another Linux distribution in order to proceed with the removing/deleting method.
+## This Python script can only be executed on a Linux machine. Please use Linux or another Linux distribution in order to proceed with the removing/deleting method
 
 ## Prerequisite
 - Linux distro
@@ -21,4 +21,3 @@ Python script that sanitizes the names of library files extracted from an APK fi
 10.  Copy the `b832bc61472727635baffcf25dd28e9f239273e2` folder and `remove.sh` to the root of the USB drive.
 11. Plug the USB drive into the IHU and wait until the IHU reboots.
 12. Check to see if the app that you wanted to remove has disappeared. If it has, then you're done!
-
