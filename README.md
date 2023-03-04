@@ -6,6 +6,8 @@ Python script that sanitizes the names of library files extracted from an APK fi
 ## Prerequisite
 - Linux distro
 - Basic knowledge of linux command
+- 
+## PLEASE READ THE INSTRUCTIONS CAREFULLY BEFORE PROCEEDING. I AM NOT RESPONSIBLE FOR ANY MISTAKES MADE WHILE EDITING THIS CODE.
 
 ## Instructions
 1.  `git clone https://github.com/silentshadow88/PX50AppRemover.git`
