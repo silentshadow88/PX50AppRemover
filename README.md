@@ -19,7 +19,7 @@ Python script that sanitizes the names of library files extracted from an APK fi
 7.  Edit line number 6 and replace `*.apk` to your apk name.**Pleased make sure this line is correct eg; `rm /system/app/Netflix.apk`**
 7.  Copy and paste this line below if you want to add multiple apks to delete and renamed it.
 8.  Copy and paste all the content of the output file.
-9.  Save the file.
-10.  Copy the `b832bc61472727635baffcf25dd28e9f239273e2` folder and `remove.sh` to the root of the USB drive.
+9.  Save the file and delete the apk file in the app folder.
+10. Copy the `b832bc61472727635baffcf25dd28e9f239273e2` folder and `remove.sh` to the root of the USB drive.
 11. Plug the USB drive into the IHU and wait until the IHU reboots.
 12. Check to see if the app that you wanted to remove has disappeared. If it has, then you're done!
