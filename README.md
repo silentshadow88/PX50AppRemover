@@ -10,7 +10,7 @@ Python script that sanitizes the names of library files extracted from an APK fi
 ## PLEASE READ THE INSTRUCTIONS CAREFULLY BEFORE PROCEEDING. I AM NOT RESPONSIBLE FOR ANY MISTAKES MADE WHILE EDITING THIS CODE.
 
 ## Instructions
-1.  `git clone https://github.com/silentshadow88/PX50AppRemover.git`
+1.  Git clone this repo `git clone https://github.com/silentshadow88/PX50AppRemover.git`
 2.  `cd PX50AppRemover`
 3.  `mkdir app`
 4.  Copy all APK files that you want to remove to the `app` folder.
