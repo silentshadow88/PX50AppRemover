@@ -6,6 +6,7 @@ import zipfile
 parser = argparse.ArgumentParser(description='Extract .so files from APKs and generate a list of "rm /system/lib64/" commands for each APK')
 parser.add_argument('apk_dir', metavar='APK_DIR', type=str, help='Path to the directory containing APK files')
 parser.add_argument('output_dir', metavar='OUTPUT_DIR', type=str, help='Path to the output directory')
+parser.add_argument('output_file', metavar='OUTPUT_FILE', type=str, help='Name of the output file')
 
 args = parser.parse_args()
 
@@ -14,6 +15,9 @@ apk_dir_path = args.apk_dir
 
 # Path to the output directory
 output_dir_path = args.output_dir
+
+# Name of the output file
+output_file_name = args.output_file
 
 # Create the output directory if it doesn't exist
 if not os.path.exists(output_dir_path):
@@ -52,3 +56,11 @@ for apk_file_path in glob.glob(os.path.join(apk_dir_path, "*.apk")):
     # Delete the temporary directory
     os.system("rm -r " + temp_dir_path)
 
+# Create the output file and write the contents of the individual text files to it
+with open(os.path.join(output_dir_path, output_file_name), "w") as output_file:
+    for txt_file_path in glob.glob(os.path.join(output_dir_path, "*.txt")):
+        with open(txt_file_path, "r") as txt_file:
+            output_file.write(txt_file.read())
+
+        # Delete the individual text file
+        os.remove(txt_file_path)
